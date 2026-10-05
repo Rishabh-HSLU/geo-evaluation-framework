@@ -1,0 +1,12 @@
+[project]
+name = "geo-evaluation-framework"
+version = "0.1.0"
+description = "First-principles evaluation framework for Generative Engine Optimization"
+readme = "README.md"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "numpy>=2.5.3",
+    "polars>=1.41.2",
+    "torch>=2.14.1",
+    "transformers>=5.18.0",
+]
